@@ -17,7 +17,7 @@ body {
     justify-content: center;
 }
 
-.instagram-wrapper {
+.conteudo {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -25,18 +25,18 @@ body {
     height: 100vh;
 }
 
-.instagram-phone {
+.cellphone {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
 
-.instagram-phone img {
+.cellphone img {
     height: 50rem;
 }
 
-.instagram-continue {
+.formulario {
     display: flex;
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
@@ -64,7 +64,7 @@ body {
     height: 3rem;
 }
 
-.profile-photo {
+.foto-perfil {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,18 +72,18 @@ body {
     overflow: hidden;
 }
 
-.profile-photo img {
+.foto-perfil img {
     height: 6rem;
 }
 
-.instagram-login {
+.link-login {
     background-color: #0095f6;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
 }
 
-.instagram-logout {
+.link-removeaccount {
     color: #0095f6;
     margin-top: 1rem;
 }
@@ -131,7 +131,7 @@ body {
 
 
 @media (max-width: 1024px) {
-    .instagram-wrapper {
+    .conteudo {
         width: 90%;
     }
 }
@@ -141,15 +141,15 @@ body {
         background-color: #ffffff;
     }
 
-    .instagram-wrapper {
+    .conteudo {
         width: 90%;
     }
 
-    .instagram-phone {
+    .cellphone {
         display: none;
     }
 
-    .instagram-continue {
+    .formulario {
         width: 100%;
     }
     
